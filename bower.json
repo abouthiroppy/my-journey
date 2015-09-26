@@ -1,0 +1,16 @@
+{
+  "name": "my-journey",
+  "version": "0.0.0",
+  "homepage": "https://github.com/abouthiroppy/my-journey",
+  "authors": [
+    "abouthiroppy <git@about-hiroppy.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
