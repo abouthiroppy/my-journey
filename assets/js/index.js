@@ -4,15 +4,16 @@
 
 /*globals jQuery, document */
 (function ($) {
-    "use strict";
+	"use strict";
 
-    $(document).ready(function(){
+	$(document).ready(function(){
 
-        // On the home page, move the blog icon inside the header 
-        // for better relative/absolute positioning.
+		// On the home page, move the blog icon inside the header 
+		// for better relative/absolute positioning.
 
-        //$("#blog-logo").prependTo("#site-head-content");
-
-    });
+		//$("#blog-logo").prependTo("#site-head-content");
+		//
+		hljs.initHighlightingOnLoad();
+	});
 
 }(jQuery));
