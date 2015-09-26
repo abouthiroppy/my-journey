@@ -13,6 +13,8 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+		<base href="http://blog.about-hiroppy.org">
+
     {{! Styles'n'Scripts }}
 		<link rel="stylesheet" type="text/css" href="./bower_components/highlight/src/styles/default.css">
 		<link rel="stylesheet" type="text/css" href="./bower_components/highlight/src/styles/github.css">
@@ -41,6 +43,7 @@
     {{ghost_foot}}
 
     {{! The main JavaScript file for Casper }}
+		<script src="./bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="./bower_components/highlight/src/highlight.js"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
