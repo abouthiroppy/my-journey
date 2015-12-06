@@ -6,6 +6,8 @@
 (function ($) {
 	"use strict";
 
+	$('.post-title').after($('<hr>'));
+
 	$(document).ready(function(){
 
 		// On the home page, move the blog icon inside the header 
@@ -13,7 +15,8 @@
 
 		//$("#blog-logo").prependTo("#site-head-content");
 		//
-		hljs.initHighlightingOnLoad();
+		$('pre').each(function(i, block) {
+			hljs.highlightBlock(block);
+		});
 	});
-
 }(jQuery));
